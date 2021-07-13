@@ -1,0 +1,164 @@
+.wrapper{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.chatContainer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	height: 100vh;
+	width: 25vw;
+	background-color: cadetblue;
+}
+.h3{
+	height: 3%;
+}
+.card{
+	flex-grow: 1 1 auto;
+	width: 100%;
+	height: 97%;
+	overflow-y: hidden;
+}
+.chatMessageRow{
+	height: 100%;
+}
+.chatMessageCol{
+	height: 100%;
+}
+.chatMessageOthers{
+	display: flex;
+	height: 80%;
+}
+.chat-messages {
+	width: 100%;
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.newChatMessage{
+	height: 15%;
+	align-items: center;
+}
+.pollButton{
+	width: 48%;
+	margin: 1%;
+}
+.newChatMessageDiv{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0%;
+	margin-top: -4%;
+	margin-bottom: 4%;
+}
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+	padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+}
+
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+
+.MainContainer{
+	display: flex;
+	flex-flow: column;
+	width: 75vw;
+
+	overflow-y: scroll;
+	align-items: center;
+	height: 100vh;
+}
+
+.userVideo{
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	height: 25%;
+	width: 100%;
+	background-color: rgb(36, 34, 34);
+}
+.userStream{
+	height: 94%;
+	width: 94%;
+	margin: 1%;
+	border-radius:5%;
+}
+.userVideoMain{
+	
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	height: 90%;
+	flex-flow: row;
+}
+.userVideoUtility{
+	width: 50%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:2%;
+}
+.allOthersVideo{
+    display: flex;
+    flex-direction: column-wrap;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+    height:100%;
+    width: 100%;
+	overflow-y: scroll;
+}
+.otherUserVideoStream{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width:50%; height:50%;
+}
+.othersVideoStream{
+    width: 95%; 
+	height: 95%; 
+	border-radius: 3%;
+	margin: 1%;
+}
+.otherUserReaction{
+	width: 50%;
+	height: 20%;
+	text-align: center;
+	position: relative;
+	bottom: 40%;
+	left: 40%;
+}
+
+.utilityButton{
+	width: 50;
+	height: 50; 
+	border-radius: 35; 
+	padding-left: 0; 
+	padding-right: 0;
+}
+.reactionDropdown{
+width: 50px;
+position: "absolute";
+}
+.reactionAnimation{
+	width: 70px;
+}
