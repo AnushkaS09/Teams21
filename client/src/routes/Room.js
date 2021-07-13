@@ -1,3 +1,5 @@
+//Video Room Code
+
 import React, { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 import Peer from "simple-peer";
@@ -240,6 +242,7 @@ const Room = (props) => {
         }
         socketRef.current.emit("setReactions", userReaction)
     }, [userReaction])
+    
     function stopSharing() {
         userVideo.current.srcObject.getTracks().forEach((track) => { track.stop() })
         userVideo.current.srcObject = null;
